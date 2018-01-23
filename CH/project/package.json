@@ -1,0 +1,19 @@
+{
+  "name": "chang_hong",
+  "version": "1.0.0",
+  "description": "长虹官网",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-connect": "^5.2.0",
+    "gulp-sass-china": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "购物车，轮播图，cookie，ajax"
+  ],
+  "author": "",
+  "license": "ISC"
+}

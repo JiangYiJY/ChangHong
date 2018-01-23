@@ -1,0 +1,86 @@
+button, input, textarea {
+  outline: none; }
+
+.new-login-main input {
+  display: block !important; }
+
+.new-login-account, .new-login-password {
+  height: 38px;
+  background: #ffffff;
+  border: 1px solid #dedede;
+  text-indent: 10px;
+  line-height: 38px;
+  color: #333333;
+  font-size: 12px; }
+
+.account-tips {
+  font-size: 12;
+  height: 22px;
+  line-height: 22px;
+  text-align: right; }
+
+.new-login-password {
+  margin-bottom: 18px; }
+
+.new-login-tips {
+  vertical-align: middle;
+  height: 40px;
+  color: #f12020; }
+  .new-login-tips a {
+    color: #f12020;
+    text-decoration: none; }
+
+.pull-right {
+  float: right;
+  font-size: 14px; }
+
+.new-login-singIn {
+  width: 340px;
+  text-align: center;
+  background: #f12020;
+  height: 44px;
+  line-height: 44px;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 18px;
+  cursor: pointer;
+  border: 0; }
+
+.new-login-register {
+  font-size: 16px;
+  color: #333333;
+  width: 340px;
+  border: 1px solid #e2e2e2;
+  height: 42px;
+  background: #ffffff;
+  cursor: pointer; }
+  .new-login-register:hover {
+    color: red;
+    border: 1px solid red; }
+
+.other-login-title {
+  height: 1px;
+  background: #d6d6d6;
+  margin-top: 58px;
+  position: relative; }
+  .other-login-title p {
+    color: #d6d6d6;
+    width: 106px;
+    text-align: center;
+    line-height: 1;
+    background: #f8f8f8;
+    position: absolute;
+    left: 50%;
+    margin-left: -53px;
+    top: -7px; }
+
+.other-login-enter {
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 96px; }
+
+.other-login-enter img {
+  vertical-align: top; }

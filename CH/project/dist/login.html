@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>login</title>
+		<link rel="stylesheet" href="css/register.min.css">
+		<link rel="stylesheet" href="css/login.min.css">
+	</head>
+	<body class="new-login-body">
+    
+
+	    <div class="header-nav header-nav-shadow">
+	        <div class="com-width" style="overflow: hidden;">
+	            <div class="header-logo">
+	                <a href="/"><img src="https://cdn.chiq-cloud.com/passport/images/gw/header-logo_07.png" alt="" width="239" height="78"></a>
+	            </div>
+	            <p class="head-login">登录</p>
+	        </div>
+	    </div>
+	    <div class="login" id="login">
+	        <div class="new-login-main" style="margin: 130px auto 0px auto;width: 320px;">
+	            <form action="" method="post" id="form" >
+	               
+	                
+	                <input id="username" name="username" class="new-login-account" value="" placeholder="手机号/邮箱/用户名" style="width: 320px;" type="text">
+	                <div id="tips" class="account-tips"></div>
+	               
+	                
+	                <input id="password" name="password" class="new-login-password" placeholder="请输入密码" autocomplete="off" style="width: 320px;" type="password">
+	                
+	                <div class="new-login-tips">
+	                
+	                
+	                
+	                <span class="pull-right" id="forgetPwd">
+	                    <a class="f-password" href="/sso/trs/retrieve/password.do?livemode=1&amp;view=gw&amp;service=http://cn.changhong.com/">忘记密码</a>？
+	                </span>
+	                </div>
+	                <input id="loginDiv" class="new-login-singIn" value="登录"  style="width: 320px;" type="button">
+	                <input class="new-login-register" value="注册长虹账号" id="register-button" style="width: 320px;" type="button">
+
+	            </form>
+	            <div class="other-login-way">
+	                <div class="other-login-title"><p>其他登录方式</p></div>
+	                <div class="other-login-enter">
+	                
+	                
+	                    <a href="https://graph.qq.com/oauth2.0/authorize?response_type=code&amp;client_id=101347331&amp;redirect_uri=https%3a%2f%2fpassport.changhong.com%2fredirect.do%3fenvironment%3dproduct%26livemode%3d1%26service%3dhttp://cn.changhong.com/%26source%3dqq">
+	                        <img src="https://cdn.chiq-cloud.com/passport/images/gw/new-other-login-enter.jpg" alt="QQ" width="36" height="36"></a>
+	                    <a style="margin: 0px 46px" href="https://open.weixin.qq.com/connect/qrconnect?appid=wxb21ab427f39e3633&amp;redirect_uri=https://passport.changhong.com/redirect.do?environment=product%26livemode=1%26service=http://cn.changhong.com/%26source%3dweChat&amp;response_type=code&amp;scope=snsapi_login&amp;state=STATE#wechat_redirect"><img src="https://cdn.chiq-cloud.com/passport/images/gw/new-login-other-enter-1.jpg" alt="weChat" width="36" height="36"></a>
+	                    <a href="https://api.weibo.com/oauth2/authorize?client_id=3311627057&amp;redirect_uri=https://passport.changhong.com/redirect.do?environment=product%26livemode=1%26service=http://cn.changhong.com/%26source%3dweibo&amp;response_type=code&amp;state=&amp;scope=all"><img src="https://cdn.chiq-cloud.com/passport/images/gw/new-login-other-enter-2.jpg" alt="sina" width="36" height="36"></a>
+	                
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+
+	    
+
+	</body>
+</html>

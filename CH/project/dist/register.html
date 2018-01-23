@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/register.min.css">
+	</head>
+	<body class="new-login-body">
+		<div class="header-nav header-nav-shadow">
+		    <div class="com-width" style="overflow: hidden;">
+		        <div class="header-logo">
+		            <a href="/"><img src="https://cdn.chiq-cloud.com/passport/images/gw/header-logo_07.png" alt="" width="239" height="78"></a>
+		        </div>
+		        <p class="head-login">注册</p>
+		    </div>
+		</div>
+		<!--注册-->
+
+		<form action="" method="post" class="register_form" name="my_form">
+		<div class="new-register-main" style="width: 350px;">
+		    
+		    <div class="new-register-row">
+		        <p class="new-register-label">手机号码</p>
+		        <input name="phone" maxlength="11" type="text" class="new-login-account" placeholder="请输入手机号">
+		    </div>
+		    <div class="new-register-row">
+		        <p class="new-register-label">设置密码</p>
+		        <input name="password" id="confirm-pwd" autocomplete="off" type="password" class="new-login-password" placeholder="请输入密码">
+		        <p class="registered-pw-tips">长度在8~16之间，必须包含字母和数字</p>
+		    </div>
+		    <div class="new-register-row">
+		        <p class="new-register-label">确认密码</p>
+		        <input name="checkpwd" autocomplete="off" type="password" class="new-login-password" placeholder="请输入密码">
+		    </div>
+		    <div class="new-register-row">
+		        <p class="new-register-label">图形验证</p>
+		        <div class="new-register-validation" style="display: flex;" id="img-parent">
+		            <input id="registCode" style="width: 170px;float: left" name="code" maxlength="4" type="text" class="ignore" placeholder="请输入4位验证码">
+		            <img class="register-validation-pic" id="img" src="http://cn.changhong.com/sso/code.do?t=1516441888765" style="width: 90px;height: 40px;float: left" alt="">
+		            <span class="validation-pic-change" onclick="" style="float: left">看不清 <br>换一张</span>
+		       </div>
+		       
+		    </div>
+		   
+		    <div class="new-register-row" id="sms-group">
+		        <p class="new-register-label">短信验证</p>
+		        <div class="new-register-validation" id="sms-code">
+		            <input class="ignore" style="width: 172px;height: 40px;" type="text" name="authCode" maxlength="6" placeholder="请输入短信验证码"><p class="register-validation-message">获取验证码</p>
+		        </div>
+		    </div>
+		    <p class="new-register-number">每个手机号每天只能获取五次验证码</p>
+		    <div class="new-register-agreement">
+		        <input type="checkbox" id="checkbox" checked="checked">
+		        <p class="register-agreement-content" style="width: 350px;">我已阅读并接受 <a href="javascript:history.go(0);">版权声明</a> 和 <a href="javascript:history.go(0);">隐私保护</a> 条款</p>
+		        <span id="checkbox-tips" style="width:350px;clear: both;">请阅读并接受 版权声明 和 隐私保护 条款</span>
+		    </div>
+		    <input type="button" class="new-login-singIn new-register-btn" value="注册">
+		    <p class="new-registerTo-login"><a href="/sso/logout.do?service=http://cn.changhong.com/sso/login.do%3fview=gw%26ecKey=false%26livemode=1%26service=http://cn.changhong.com">已有账号，马上登录</a></p>
+		</div>
+		</form>
+
+		
+	</body>
+</html>
