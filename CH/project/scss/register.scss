@@ -105,6 +105,24 @@ body {
     
     font-size: 12px;
 }
+//手机号错误信息
+.new-register-error {
+    height: 38px;
+    line-height: 38px;
+    padding-left: 28px;
+    font-size: 14px;
+    margin-left: 5px;
+    display: block;
+    background: url("../images/signed-error-icon.png") no-repeat left center;
+    color: #e42121;
+}
+//成功
+.regist-success {
+    
+    color: #43842b;
+    background: url("../images/signed-right-icon.png") no-repeat right center;
+    margin-left: 8px;
+}
 //提示
 .registered-pw-tips {
     height: 38px;

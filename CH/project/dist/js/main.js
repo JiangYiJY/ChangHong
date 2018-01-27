@@ -34,14 +34,47 @@ require(["index"], function(index){
 	console.log(index.main());
 })
 require(["goodsDetail"],function(goodsDetail){
+	
 	goodsDetail.goodsDetail();
 })
+require(["scroll"],function(scroll){
+	scroll.scroll();
+})
+//放大镜
+require(["mirror"],function(mirror){
+	mirror.mirror();
+})
+//切换放大镜的图片
+require(["tab"],function(tab){
+	tab.tab();
+
+})
+//配送地址的城市选择
+require(['city'],function(city){
+	city.city();
+})
+//商品列表页加载
+require(["list"],function(list){
+	list.list();
+})
+//购物车cookie
+require(["goodsCookie"],function(cookie){
+	cookie.cookie();
+})
+
 
 /*//调用slide.js 中的 slide函数
 require(["slide"], function(slide){
 	console.log(slide.slide());
 })*/
-
+//注册
+require(["register"],function(register){
+	register.register();
+})
+//登录验证
+require(["login"],function(login){
+	login.login();
+})
 
 
 

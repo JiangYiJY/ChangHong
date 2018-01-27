@@ -74,12 +74,30 @@ gulp.task("scss-public", () => {
 	.pipe(gulp.dest("dist/css"))
 	.pipe(connect.reload());
 })
-gulp.task("scss-goods", () => {
-	return gulp.src("scss/goods.scss")
+gulp.task("scss-detail", () => {
+	return gulp.src("scss/detail.scss")
 	.pipe(scss())
 	.pipe(gulp.dest("dist/css"))
 	.pipe(minify())
-	.pipe(rename("goods.min.css"))
+	.pipe(rename("detail.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
+gulp.task("scss-list", () => {
+	return gulp.src("scss/list.scss")
+	.pipe(scss())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minify())
+	.pipe(rename("list.min.css"))
+	.pipe(gulp.dest("dist/css"))
+	.pipe(connect.reload());
+})
+gulp.task("scss-pay", () => {
+	return gulp.src("scss/pay.scss")
+	.pipe(scss())
+	.pipe(gulp.dest("dist/css"))
+	.pipe(minify())
+	.pipe(rename("pay.min.css"))
 	.pipe(gulp.dest("dist/css"))
 	.pipe(connect.reload());
 })
@@ -106,7 +124,7 @@ gulp.task("data", () => {
 //上述操作都是整理文件的，作为整体，建立项目的整体，让他们一起执行。
 
 gulp.task("build", ["copy-html", "images", "scripts", "data", "scss-index","scss-slide","scss-register","scss-public","scss-login",
-	"scss-goods"], () => {
+	"scss-detail","scss-list","scss-pay"], () => {
 	console.log("编译成功");
 })
 
@@ -128,7 +146,9 @@ gulp.task("watch", function(){
 	gulp.watch("scss/register.scss",["scss-register"])
 	gulp.watch("scss/login.scss",["scss-login"])
 	gulp.watch("scss/public.scss",["scss-public"])
-	gulp.watch("scss/goods.scss",["scss-goods"])
+	gulp.watch("scss/detail.scss",["scss-detail"])
+	gulp.watch("scss/list.scss",["scss-list"])
+	gulp.watch("scss/pay.scss",["scss-pay"])
 
 	
 })

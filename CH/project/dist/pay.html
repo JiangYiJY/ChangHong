@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>商品结算</title>
+		<link rel="stylesheet" href="css/public.css">
+		<link rel="stylesheet" href="css/pay.min.css">
+		<script type = "text/javascript" src = "js/require.js" async = "true" defer data-main = "js/main"></script>
+	</head>
+	<body>
+		<div class="bgcolor">
+		    <div class="bg_top">
+		        <!-- 头部区域 -->
+		        
+		            <div class ="top_nav ">
+		            <!-- 头部左边 -->
+		            <div class="top_nav_left ">
+		                <ul class="clear">
+		                    <li><a href="index.html" class="cur">长虹官网</a></li>
+		                    <li><a href="#" target="_blank">关于长虹</a></li>
+		                    <li><a href="#" target="_blank">商务合作</a></li>
+		                    <li><a href="#" target="_blank"><img src="http://images.changhong.com/chgw/images/en_icon.png">&nbsp;&nbsp;English</a></li>
+		                </ul>
+		            </div>
+		            <div class="top_nav_right">
+		                <!-- 登录，注册 -->
+		                <div class="top_nav_right_login " id="unLoginDiv">
+		                    <a href="#" class="user-account" id="user-account">ac_stEsB</a>
+		                    <a href="login.html" id="sso_logout">退出</a>
+		                </div>
+		                <!-- 右边三个小块 -->
+		                <div class="top_nav_right_tool ">
+		                    <ul>
+		                        <li class="my">
+		                            <a href="#" class="my_a">我的长虹</a>
+		                            <div class="tool-myCQ-tips">
+		                                <div class="tool-myCQ-infor">
+		                                    <img src="http://cn.changhong.com/images/tool-myCQ-my-photo_03.jpg" alt="" id="user_image" width="60" height="60">
+		                                    <p class="tool-myCQ-infor-phone" style="overflow: hidden;text-overflow: ellipsis;white-space: nowrap;margin-right: 5px;"><a href="#" id="login_account">您好请登录</a></p>
+		                                    <p class="tool-myCQ-infor-setting"><a href="#">账户设置</a></p>
+		                                </div>
+		                                <div class="tool-myCQ-operation">
+		                                    <a href="pay.html">我的订单</a>
+		                                    <span>|</span>
+		                                    <a href="#">我的预约</a>
+		                                    <a href="#">家电管家</a>
+		                                    <span>|</span>
+		                                    <a href="#">服务记录</a>
+		                                    <a href="#">我的积分</a>
+		                                    <span>|</span>
+		                                    <a href="#">我的优惠券</a>
+		                                    <a href="#">我的收藏</a>
+		                                </div>
+		                            </div>
+		                        </li>
+		                        <li class="gift"><a href="#" class="gift_a">礼品兑换</a></li>
+		                        <li class="shop_cart">
+		                            <div class="tool-container-row">
+								        <a href="pay.html" class="tool-shoppingCar"><span id="mycartNum" style="display: block;">0</span>购物车</a>
+								    </div>
+								    <div class="tool-container-tips">
+								        <div class="tool-container-tips-warp" style="display: block;"> 
+								            <div class="tool-tips-row">
+								                <p>
+								                    <a class="cart_url" target="_blank" id="cart_CH6003712" r3wldm="CH6003712" href="http://cn.changhong.com/cpzx/jy_aircondition/ljs_719/3p/201611/t20161122_64316.html">3P变频 0.1度控温 冷暖柜式空调KFR-72LW/ZDHIF(W1-J)+A3
+								                    </a>
+								                </p>
+								                <h1>单价<span>5599</span>元 <b>x 3</b>
+								                    <a href="javascript:;" >删除</a><a href="" class="tool-goods-tips"></a>
+								                </h1>
+								            </div> 
+								            <div class="tool-tips-row">
+								                <p>
+								                    <a class="cart_url" target="_blank" id="cart_CH6004702" r3wldm="CH6004702" href="http://cn.changhong.com/cpzx/jy_aircondition/ljs_719/3p/201611/t20161122_64381.html">3P三级能效 圆柱空调KFR-72LW/DAW1+2</a>
+								                </p>
+								                <h1>单价<span>4799</span>元 <b>x 1</b><a href="javascript:;">删除</a><a href="" class="tool-goods-tips"></a></h1>
+								            </div> 
+								            <div class="tool-tips-row">
+								                <p>
+								                    <a class="cart_url" target="_blank" id="cart_CH6004448" r3wldm="CH6004448" href="http://cn.changhong.com/cpzx/jy_aircondition/bgs_718/d1p/201611/t20161122_64166.html">大1P二级能效 智能静音冷暖变频空调KFR-26GW/DAW1+A2</a>
+								                </p>
+								                <h1>单价<span>2599</span>元 <b>x 1</b><a href="javascript:;">删除</a><a href="" class="tool-goods-tips"></a></h1>
+								            </div> 
+								            <div class="tool-tips-row"><p><a class="cart_url" target="_blank" id="cart_CH6004437" r3wldm="CH6004437" href="http://cn.changhong.com/cpzx/jy_aircondition/bgs_718/z15p/201611/t20161122_64187.html">正1.5P二级能效 智能静音冷暖变频空调KFR-35GW/DAW1+A2&nbsp;</a></p><h1>单价<span>2599</span>元 <b>x 1</b><a href="javascript:;">删除</a><a href="" class="tool-goods-tips"></a></h1>
+								            </div>
+								        </div>
+								        <div class="tool-goods-pay" style="display: block;">
+								            <div class="tool-car-infor">
+								                <p><span id="totalNum">6</span>件商品</p>
+								                <h1>总价：<span id="totalPrice">￥26794.00</span></h1>
+								            </div>
+								            <a href="javascript:;" class="goods-pay-btn" id="goods-pay-btn">立即结算</a>
+								        </div>
+								        <h1 class="tips-nogoods" style="display:none">
+								            购物车中还没有商品，赶紧选购吧
+								        </h1>
+								    </div>
+		                        </li>
+		                    </ul>
+		                </div>
+		                
+		            </div>
+		        </div>
+		    </div>
+		    <!-- 错误信息 -->
+		    <div id="append_parent">
+			    
+			</div>
+		    <!-- logo -->
+		    <div class="header-nav header-nav-shadow">
+			    <div class="com-width clearfix">
+			        <div class="header-logo">
+			            <a href="http://cn.changhong.com"><img src="http://cn.changhong.com/ec/cshop/templates/default/images/memberHome/header-logo_07.png" alt="" width="239" height="78"></a>
+			        </div>
+			        <div class="car-header">
+			            <div class="car-step">
+			                <div class="car-step-num car-cur-step"><span>1</span>我的购物车</div>
+			                <p></p>
+			                <div class="car-step-num"><span>2</span>订单确认</div>
+			                <p></p>
+			                <div class="car-step-num"><span>3</span>在线支付</div>
+			            </div>
+			        </div>
+			    </div>
+			</div>
+			<!-- 主体 -->
+			<form action="" method="POST" id="form_buy" name="form_buy">
+			    <div class="car-main-container">
+			        <div class="car-info-form">
+			            <div class="com-width">
+			                <!--购物车商品-->
+			                <div class="my-car-bk" id="cart_goods_info">
+			                    <div class="car-con-top clearfix">
+			                        <div class="lf clearfix">
+			                            <div class="car-all-check er">
+			                                <input id="car_all_check" type="checkbox">
+			                            </div>
+			                            <p class="car-lf-sp">
+			                                全选<span id="total_num">0</span>种商品
+			                            </p>
+			                        </div>
+			                        <p class="rt-sp">
+			                            <span>0</span>种商品已失效
+			                        </p>
+			                    </div>
+				                    <div class="goods_list">
+				                    
+
+				                    </div>
+			                    </div>
+
+			                    
+			                <!-- 折扣商品 -->
+			                <div class="my-car-bk">
+							    <h3 class="zk-tit">您当前可以折扣购买以下商品</h3>
+							    <div class="zk-pro-ls">
+							        <!--商品块1-->
+
+							        <div class="zk-pro-deal lf">
+							            <span class="zk-dis dis" style="text-align: center;margin-top: 32px;">9.5折</span>
+							            <div class="zk-pro-des">
+							                <img src="http://cn.changhong.com/cpzx/pb_televisions/azds/201704/W020171229405789523328.jpg" alt="" width="40px" height="40px">
+							                <div class="zk-deal-name">
+							                    <a href="goodsDetail.html" target="_blank" class="h4">65D3P 65英寸64位4K超高清HDR智能全金属机身平板液晶电视（蔷薇金）</a>
+							                    <p>
+							                        <span class="zk-now-price">5699元</span><span class="zk-del-price">5999.00元</span>
+							                    </p>
+							                </div>
+							            </div>
+							            <a href="javascript:;" url="http://cn.changhong.com/cpzx/pb_televisions/azds/201704/t20170401_66441.html" gid="233" r3="CH5009518" class="zk-add-btn">选购</a>
+							        </div>
+
+							        <div class="zk-pro-deal rt">
+							            <span class="zk-dis dis" style="text-align: center;margin-top: 32px;">9.4折</span>
+							            <div class="zk-pro-des">
+							                <img src="http://cn.changhong.com/cpzx/pb_televisions/azds/201710/W020180115632735739880.jpg" alt="" width="40px" height="40px">
+							                <div class="zk-deal-name">
+							                    <a href="goodsDetail.html" target="_blank" class="h4">65D2P 65英寸32核人工智能4K超高清HDR全金属轻薄语音平板LED液晶电视机（浅金色）</a>
+							                    <p>
+							                        <span class="zk-now-price">4999元</span><span class="zk-del-price">5299.00元</span>
+							                    </p>
+							                </div>
+							            </div>
+							            <a href="javascript:;" url="http://cn.changhong.com/cpzx/pb_televisions/azds/201710/t20171031_68038.html" gid="382" r3="CH5010405" class="zk-add-btn">选购</a>
+							        </div>
+
+							        <div class="zk-pro-deal lf">
+							            <span class="zk-dis dis" style="text-align: center;margin-top: 32px;">9.4折</span>
+							            <div class="zk-pro-des">
+							                <img src="http://cn.changhong.com/cpzx/pb_televisions/azds/201704/W020171229408099817587.jpg" alt="" width="40px" height="40px">
+							                <div class="zk-deal-name">
+							                    <a href="http://cn.changhong.com/cpzx/pb_televisions/azds/201704/t20170401_66440.html" target="_blank" class="h4">60D3P 60英寸64位4K超高清HDR智能全金属机身平板液晶电视</a>
+							                    <p>
+							                        <span class="zk-now-price">4699元</span><span class="zk-del-price">4999.00元</span>
+							                    </p>
+							                </div>
+							            </div>
+							            <a href="javascript:;" url="http://cn.changhong.com/cpzx/pb_televisions/azds/201704/t20170401_66440.html" gid="234" r3="CH5009517" class="zk-add-btn">选购</a>
+							        </div>
+							     </div>
+							</div>
+							
+
+			            </div>
+			        </div>
+			    </div>
+			</form> 
+			<!-- 结算部分 -->
+			<div class="car-sum-price">
+			    <div class="com-width">
+			            <div class="sum-pro-lf">
+			                <p class="car-pro-count">
+			                    已选<span id="goods_num">0</span>件商品
+			                </p>
+			                
+			                <i></i>
+			                <p class="car-pro-int">
+			                    满减优惠-<span id="ACTIVE_MANJIAN_TAOTAL">0</span>元
+			                </p>
+			                <i></i>
+			                        <p class="car-pro-int car-tc-zp">
+			                            查看赠品<span id="zeng-num">0</span>件
+			                        </p>
+			            </div>
+			            <div class="sum-pro-rt">
+			                <p class="sum-price">
+			                    总计<span id="cartTotal">0.00</span>元
+			                </p>
+			                <input id="next_submit2" href="javascript:void(0)" class="car-pay-btn" value="立即结算" type="button">
+			            </div>
+			    </div>
+			</div>
+			 <!-- 底部 -->
+		    <div class="footer">
+			      	<div class="bg_com_with">
+					    <div class="com-width">
+					        <div class="footer-help">
+					            <div class="help-about">
+					                <div class="about-CQ lf">
+					                    <div class="about-icon" style="margin-top: 7px">
+					                        <img alt="" src="http://cn.changhong.com/images/describe-1_03.png" width="55" height="37">
+					                    </div>
+					                    <div class="about-describe">
+					                        <h1 style="font-weight:bold">物流快线</h1>
+					                        <p>及时响应准确送达</p>
+					                    </div>
+					                </div>
+					                <div class="about-CQ rt">
+					                    <div class="about-icon" style="margin-top: 7px">
+					                        <img alt="" src="http://cn.changhong.com/images/describe-3_05.png" width="45" height="38">
+					                    </div>
+					                    <div class="about-describe">
+					                        <h1 style="font-weight:bold">无忧报修</h1>
+					                        <p>7*24小时客服热线</p>
+					                    </div>
+					                </div>
+					                <div class="about-CQ about-CQ-center">
+					                    <div class="about-icon" style="margin-top: 7px">
+					                        <img alt="" src="http://cn.changhong.com/images/describe-2_03.png" width="46" height="41">
+					                    </div>
+					                    <div class="about-describe">
+					                        <h1 style="font-weight:bold">售后网点</h1>
+					                        <p>20000余家售后网点</p>
+					                    </div>
+					                </div>
+					            </div>
+					            <div class="help-ways">
+					                <div class="help-server lf">
+					                    <ul class="lf">
+					                        <li class="help-title">品牌渠道</li>
+					                        
+					                            <li><a href="http://www.meiling.com/productlist.php?id=0&amp;page=1&amp;co1=0&amp;para1=0&amp;co2=0&amp;para2=0&amp;co3=0&amp;para3=0&amp;co4=0&amp;para4=0" target="_blank">美菱冰箱</a></li>
+					                        
+					                            <li><a href="https://changhongtv.tmall.com/" target="_blank">长虹天猫</a></li>
+					                        
+					                            <li><a href="http://mall.jd.com/index-1000001134.html" target="_blank">长虹京东</a></li>
+					                        
+					                            <li><a href="http://shop.suning.com/30000009/index.html" target="_blank">长虹苏宁</a></li>
+					                        
+					                            <li><a href="http://pinpai.gome.com.cn/SI_15/index.html" target="_blank">长虹国美</a></li>
+					                        
+					                    </ul>
+					                    <ul class="rt">
+					                        <li class="help-title">服务支持</li>
+					                        
+					                            <li><a href="http://cn.changhong.com/fw/" target="_blank">产品查询</a></li>
+					                        
+					                            <li><a href="http://cn.changhong.com/fw/cpbxfw/support.html" target="_blank">维修服务</a></li>
+					                        
+					                            <li><a href="http://cn.changhong.com/fw/ybfw/support.html" target="_blank">延保服务</a></li>
+					                        
+					                            <li><a href="http://cn.changhong.com/fw/gdfw/xzzx/" target="_blank">下载中心</a></li>
+					                        
+					                    </ul>
+					                </div>
+					                <div class="help-team help-server lf">
+					                    <ul class="lf">
+					                        <li class="help-title">长虹集团</li>
+					                        
+					                            <li><a href="http://group.changhong.com/xwzx_255/gsdt/" target="_blank">公司动态</a></li>
+					                        
+					                            <li><a href="http://group.changhong.com/tzzgx_275/" target="_blank">投资者关系</a></li>
+					                        
+					                    </ul>
+					                    <ul class="rt">
+					                        <li class="help-title">商务合作</li>
+					                        
+					                            <li><a href="http://b2b.changhong.com/" target="_blank">经销商登录</a></li>
+					                        
+					                            <li><a href="http://srm.changhong.com/srm/login/index.do" target="_blank">供应商登录</a></li>
+					                        
+					                            <li><a href="http://jsfw.kydls.com" target="_blank">服务商登录</a></li>
+					                        
+					                    </ul>
+					                    <div class="clearfix"></div>
+					                    <div class="foot-shopping">
+					                        <p class="lf"><a href="https://jf.changhong.com" target="_blank">积分商城</a></p>
+					                        <p class="rt"><a href="http://cn.changhong.com/fw/gdfw/gwzn/" target="_blank">购物指南</a></p>
+					                    </div>
+					                </div>
+					                <div class="help-tel lf">
+					                    <!-- <script src="http://images.changhong.com/chgw/images/im.js"></script> -->
+					                    <p class="airlines"><a style="cursor: pointer; color:#f12020;" href="javascript:void(0)" id="online-ask-item_1">在线客服</a></p>
+					                    <p class="feedback"><a href="http://cn.changhong.com/gwsy/dblj/wtfk/" target="_blank" style="color:#f12020">问题反馈</a></p>
+					                    <h1 style="margin-top:26px;">4008-111-666</h1>
+					                    <h1>4006-111-666</h1>
+					                </div>
+					                <div class="help-code">
+					                    
+					                        
+					                            <div class="help-code-box lf">
+					                                <img alt="长虹微商城" src="http://images.changhong.com/chgw/gwsy/dblj/ewm/201609/W020161102694433412114.jpg" width="108" height="108">
+					                                <p>长虹微商城</p>
+					                            </div>
+					                        
+					                        
+					                            <div class="help-code-box rt">
+					                                <img alt="长虹服务" src="http://images.changhong.com/chgw/gwsy/dblj/ewm/201609/W020160929398046882385.jpg" width="108" height="108">
+					                                <p>长虹服务</p>
+					                            </div>
+					                        
+					                    
+					                </div>
+					            </div>
+					        </div>
+					    </div>
+					</div>
+				    <div class="foot-statement clearfix">
+				        <div class="com-width">
+				            <div class="foot-logo">
+				                <img alt="" src="http://cn.changhong.com/images/footer-logo_03.png" width="227" height="36">
+				            </div>
+				            <div class="foot-txt">
+				            
+				                <p>蜀ICP备09001737 | © <script type="text/JavaScript">var d = new Date();document.write(d.getFullYear()); </script>2018 四川长虹电器股份有限公司 版权所有</p>
+				                <p>地址：四川省绵阳市高新区绵兴东路35号</p>
+				            </div>
+				            <div class="foot-note">
+				                <p style="margin-left: 144px"><img alt="" src="http://cn.changhong.com/images/wzba-icon_03.png" width="26" height="31">经营性网站备案信息</p>
+				                <p style="margin-left: 106px"><img alt="" src="http://cn.changhong.com/images/cxwz-icon_06.png" width="24" height="20">诚信网站</p>
+				                <p style="margin-left: 104px"><a href="http://182.131.3.112/iciaicweb/dzbscheck.do?method=change&amp;id=40a3809a5f5cb2b10160545854e303f3" target="_blank" style="color:#999"><img src="http://cn.changhong.com/images/gsjgicon.gif" alt="" width="20" height="20">工商网监</a></p>
+				                <p style="margin-left: 104px"><img alt="" src="http://cn.changhong.com/images/wsjy-icon_06.png" width="18" height="20">网上交易保障中心</p>
+				                <p style="margin-left: 95px"><img alt="" src="http://cn.changhong.com/images/kxr-icon_08.png" width="20" height="20">可信网站信用评估</p>
+				            </div>
+				        </div>
+				    </div>
+			</div> 
+
+          
+		</div>
+
+		
+	</body>
+</html>

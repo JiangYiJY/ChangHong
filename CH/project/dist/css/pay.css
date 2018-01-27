@@ -1,0 +1,506 @@
+.top_nav_right_login a {
+  font-size: 12px;
+  color: #ffffff;
+  padding: 0 5px; }
+
+.header-nav {
+  position: relative;
+  background: #ffffff;
+  z-index: 100;
+  box-shadow: 0px 3px 3px 0px #e1e1e1;
+  height: 78px; }
+
+.com-width {
+  width: 1226px;
+  margin: 0 auto; }
+
+.header-logo {
+  float: left;
+  height: 78px; }
+
+.car-header {
+  margin: 24px 0 0 257px;
+  overflow: hidden; }
+
+.car-step {
+  float: right; }
+  .car-step p {
+    float: left;
+    width: 130px;
+    border-top: 4px solid #cccccc;
+    margin: 14px 15px 0; }
+
+.car-step-num {
+  font-size: 14px;
+  float: left;
+  color: #666666;
+  line-height: 30px; }
+  .car-step-num span {
+    display: block;
+    float: left;
+    width: 30px;
+    height: 30px;
+    background: url("../images/ok-icon04.png") no-repeat;
+    margin-right: 8px;
+    font-size: 20px;
+    color: #afafaf;
+    line-height: 28px;
+    text-align: center; }
+
+.car-cur-step {
+  color: #4dbd62; }
+  .car-cur-step span {
+    background: url("../images/ok-icon03.png") no-repeat;
+    color: #fff; }
+
+.car-main-container {
+  background: #f7f7f7;
+  overflow: hidden; }
+
+.com-width {
+  width: 1226px;
+  margin: 0 auto; }
+
+.my-car-bk {
+  margin-bottom: 23px;
+  overflow: hidden; }
+
+.car-con-top {
+  padding-top: 5px;
+  font-size: 14px;
+  color: #333;
+  line-height: 66px; }
+  .car-con-top p.car-lf-sp {
+    float: left;
+    margin-left: 5px; }
+    .car-con-top p.car-lf-sp span {
+      color: #f12020;
+      margin: 0 4px; }
+
+.lf {
+  float: left; }
+
+.car-con-top p.rt-sp {
+  float: right;
+  padding-left: 15px;
+  margin-right: 15px;
+  background: url("../images/car-icon01.png") no-repeat left center; }
+
+.car-item-deal {
+  background: #fff;
+  margin-bottom: 10px;
+  overflow: hidden; }
+
+.car-all-check {
+  cursor: pointer;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 25px 18px 0 15px;
+  background: url("../images/pro-sel-bac01.png") no-repeat; }
+  .car-all-check input {
+    float: left;
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer; }
+
+.car-check-box {
+  cursor: pointer;
+  float: left;
+  width: 14px;
+  height: 14px;
+  margin: 72px 0 0 16px;
+  background: url("../images/pro-sel-bac01.png") no-repeat; }
+  .car-check-box input {
+    float: left;
+    width: 14px;
+    height: 14px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer; }
+
+.car-checked {
+  background: url("../images/pro-sel-bac02.png") no-repeat !important; }
+
+.car-deal-rt {
+  margin-left: 50px;
+  border-left: 1px solid #f7f7f7; }
+
+.car-deal-top {
+  border-bottom: 1px solid #f7f7f7;
+  height: 42px;
+  line-height: 42px;
+  font-size: 14px;
+  color: #666666; }
+
+.car-sp-lf {
+  height: 38px;
+  line-height: 38px;
+  padding-left: 12px;
+  float: left; }
+
+.car-opt-bk {
+  float: right;
+  margin-top: 8px; }
+  .car-opt-bk .opt-like {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 22px;
+    margin: 0 22px 0 6px;
+    background: url("../images/car-icon06.png") no-repeat; }
+    .car-opt-bk .opt-like:hover {
+      transition: all 1s;
+      transform: translateY(-10px); }
+  .car-opt-bk .opt-del {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 0 22px 0 6px;
+    background: url("../images/car-icon07.png") no-repeat; }
+
+.car-deal-sp {
+  height: auto;
+  padding: 5px 0px; }
+
+.car-deal-pc {
+  display: block;
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-left: 10px; }
+  .car-deal-pc img {
+    display: block;
+    width: 110px;
+    height: 110px; }
+
+.car-deal-name {
+  width: 300px;
+  height: 110px;
+  float: left;
+  margin-left: 13px; }
+  .car-deal-name .h3 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    display: table-cell;
+    vertical-align: middle;
+    height: 110px; }
+    .car-deal-name .h3:hover {
+      color: #333333 !important; }
+
+.car-deal-price {
+  float: left;
+  margin-left: 25px;
+  width: 190px; }
+
+p.del-price {
+  font-size: 14px;
+  color: #909090;
+  margin-top: 18px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: line-through; }
+
+p.now-price {
+  font-size: 14px;
+  color: #000;
+  height: 42px;
+  line-height: 42px;
+  text-align: center; }
+  p.now-price span {
+    color: #eb1a21;
+    margin: 0 22px; }
+
+p.rec-price {
+  font-size: 12px;
+  color: #999;
+  height: 14px;
+  line-height: 14px;
+  text-align: center; }
+
+.car-deal-qt {
+  float: left;
+  width: 225px;
+  height: 35px;
+  margin: 38px 0 0 30px;
+  overflow: hidden; }
+  .car-deal-qt label {
+    display: block;
+    float: left;
+    width: 50px;
+    font-size: 14px;
+    color: #000;
+    line-height: 35px; }
+
+.car-quantity-form {
+  float: left;
+  border: 1px solid #cccccc;
+  width: 173px;
+  height: 33px; }
+  .car-quantity-form a.decrement {
+    float: left;
+    background: url("../images/subtract-icon.jpg") no-repeat center center; }
+  .car-quantity-form a {
+    display: block;
+    width: 47px;
+    height: 33px;
+    line-height: 27px;
+    color: #bbbbbb;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center; }
+  .car-quantity-form input {
+    display: block;
+    float: left;
+    padding: 0 1px;
+    width: 75px;
+    height: 33px;
+    line-height: 33px;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    border-top: 0; }
+  .car-quantity-form a.increment {
+    float: right;
+    background: url("../images/add-icon.png") no-repeat center center; }
+
+.car-item-sta {
+  float: right;
+  width: 270px;
+  font-size: 14px;
+  color: black;
+  line-height: 112px;
+  text-align: center; }
+
+.zk-tit {
+  font-size: 14px;
+  color: #333333;
+  line-height: 56px;
+  font-weight: normal; }
+
+.zk-pro-deal {
+  position: relative;
+  margin-bottom: 13px;
+  background: #fff;
+  padding-left: 76px;
+  height: 100px; }
+
+.lf {
+  float: left; }
+
+.zk-dis {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 76px;
+  height: 61px; }
+
+.zk-pro-des {
+  float: left;
+  width: 403px; }
+  .zk-pro-des img {
+    display: block;
+    float: left;
+    margin: 25px 0 0 18px; }
+
+.zk-deal-name {
+  float: left;
+  padding-left: 28px;
+  width: 300px;
+  overflow: hidden;
+  margin-top: 19px; }
+  .zk-deal-name a.h4 {
+    font-size: 14px;
+    color: #333333;
+    line-height: 26px;
+    font-weight: normal; }
+    .zk-deal-name a.h4:hover {
+      color: #333333 !important; }
+  .zk-deal-name p {
+    line-height: 20px; }
+
+.zk-now-price {
+  color: #eb1a21;
+  font-size: 16px; }
+
+.zk-del-price {
+  color: #909090;
+  font-size: 14px;
+  margin-left: 18px;
+  text-decoration: line-through; }
+
+.zk-add-btn {
+  font-size: 14px;
+  display: block;
+  float: left;
+  padding-left: 44px;
+  width: 80px;
+  height: 100px;
+  border-left: 2px solid #f7f7f7;
+  color: #f12020;
+  line-height: 100px;
+  background: url("../images/car-icon10.png") no-repeat 11px center; }
+
+.rt {
+  float: right; }
+
+.car-sum-price {
+  width: 100%;
+  height: 100px;
+  background: #313131;
+  box-shadow: 0px 0px 3px 0px #fff;
+  border-top: 2px solid #fff;
+  position: fixed;
+  left: 0px;
+  bottom: 0px; }
+
+.car-pro-count {
+  float: left;
+  margin-left: 5px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 100px; }
+  .car-pro-count span {
+    font-size: 22px;
+    color: #f12020;
+    margin: 0 16px; }
+
+.car-pro-int {
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  line-height: 100px; }
+
+.sum-pro-lf i {
+  display: block;
+  float: left;
+  margin: 42px 27px 0 47px;
+  font-style: normal;
+  border-left: 2px solid #acacac;
+  height: 16px; }
+
+.car-tc-zp {
+  text-decoration: underline;
+  cursor: pointer; }
+
+.sum-pro-rt {
+  float: right; }
+
+.sum-price {
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  line-height: 100px; }
+  .sum-price span {
+    font-size: 16px;
+    color: #f12020;
+    margin: 0 17px; }
+
+.car-pay-btn {
+  display: block;
+  float: left;
+  margin: 30px 14px 0 66px;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  background: #f12020;
+  font-size: 14px;
+  color: #fff;
+  border: 0;
+  cursor: pointer; }
+
+#fwin_dialog {
+  margin-top: -100px; }
+
+.dialog_body {
+  border: none;
+  background: #fff; }
+
+.dialog_head {
+  margin: 0;
+  border: none;
+  text-align: center;
+  position: relative;
+  z-index: auto; }
+
+.dialog_title {
+  font-weight: 100;
+  padding: 15px 20px;
+  background-color: #FFF;
+  display: inline-block;
+  height: 20px;
+  border: none 0; }
+
+.dialog_title_icon {
+  font-size: 20px;
+  color: #666;
+  font-weight: 100; }
+
+.dialog_close_button {
+  font-size: 20px;
+  color: #ddd;
+  line-height: 20px;
+  font-weight: lighter;
+  text-align: center;
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  right: 10px;
+  cursor: pointer; }
+
+.dialog_message_contents {
+  font-size: 16px;
+  color: #666;
+  line-height: 24px;
+  text-align: center;
+  min-width: 360px;
+  padding: 30px 20px; }
+
+.dialog_message_contents i.alert_info {
+  background: transparent url("../images/info.gif") no-repeat 0 0; }
+
+.dialog_message_contents i {
+  display: inline-block;
+  vertical-align: middle;
+  width: 34px;
+  height: 34px;
+  margin-right: 8px; }
+
+.dialog_buttons_bar {
+  border: none;
+  padding: 15px 0 30px;
+  text-align: center; }
+
+.dialog_buttons_bar {
+  padding: 15px 0 30px; }
+
+a.dialog-bottom-btn {
+  border: none;
+  background: #EF262B;
+  width: 60px;
+  height: 25px;
+  line-height: 25px;
+  color: #fff;
+  font-size: 15px;
+  outline: none;
+  margin-left: 10px;
+  font-weight: normal;
+  text-align: center;
+  display: inline-block;
+  padding: 4px 12px; }
+  a.dialog-bottom-btn:hover {
+    color: #fff !important; }
+
+div#fwin_dialog_cover {
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.6); }

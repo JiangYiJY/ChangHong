@@ -36,6 +36,18 @@ img {
   width: 100%;
   background: #efefef; }
 
+.home-inner-edit {
+  position: absolute;
+  top: -48px;
+  left: 250px; }
+
+.home-inner-edit a {
+  display: block;
+  width: 34px;
+  height: 18px;
+  border-left: 1px solid #d4d4d4;
+  background: url("../images/inner-icon-gray.png") no-repeat 10px center; }
+
 .top_nav, .CH_logo, .loop, .tips, .home-activity, .home-series {
   width: 1228px;
   height: auto;
@@ -68,6 +80,8 @@ img {
   color: #ffffff;
   font-size: 13px;
   line-height: 35px; }
+  .top_nav_left li a:hover {
+    color: #ffffff !important; }
 
 .English {
   vertical-align: certer; }
@@ -149,6 +163,97 @@ img {
   text-align: center;
   background: #e71d12;
   display: block; }
+
+.shop_cart {
+  width: 130px;
+  float: left;
+  height: 35px;
+  position: relative; }
+
+.shop_cart .tool-container-row a {
+  height: 18px;
+  line-height: 18px;
+  color: #ffffff;
+  padding-left: 25px;
+  display: block;
+  font-size: 12px;
+  margin-top: 9px; }
+  .shop_cart .tool-container-row a span {
+    padding: 0px 6px;
+    font-size: 12px;
+    border-radius: 6px;
+    line-height: 13px;
+    height: 14px;
+    float: right;
+    margin-top: 3px;
+    background: #e42121;
+    margin-left: 5px; }
+  .shop_cart .tool-container-row a:hover {
+    color: #fff !important; }
+
+.tool-shoppingCar {
+  margin-left: 15px;
+  margin-right: 8px; }
+
+.tool-tips-row {
+  padding-top: 18px;
+  border-bottom: 1px solid #e8e8e8;
+  height: 94px;
+  padding-left: 30px; }
+  .tool-tips-row p {
+    line-height: 25px;
+    height: 50px;
+    overflow: hidden; }
+    .tool-tips-row p a {
+      font-size: 14px;
+      color: #333333; }
+  .tool-tips-row h1 {
+    font-weight: normal;
+    font-size: 12px;
+    color: #666666;
+    line-height: 24px;
+    margin-top: 5px; }
+    .tool-tips-row h1 span {
+      font-size: 16px;
+      color: #eb1a21;
+      margin: 0px 6px; }
+    .tool-tips-row h1 b {
+      margin-left: 15px;
+      font-weight: normal; }
+    .tool-tips-row h1 a {
+      float: right;
+      color: #666666; }
+    .tool-tips-row h1 .tool-goods-tips {
+      color: #e71d12;
+      margin-right: 17px; }
+
+.tool-goods-pay {
+  height: 46px;
+  background: #f2f2f2;
+  margin-top: -1px; }
+
+.tool-car-infor {
+  padding: 5px 0px 5px 24px;
+  width: 166px;
+  float: left; }
+  .tool-car-infor p {
+    font-size: 12px;
+    color: #666666;
+    line-height: 13px; }
+    .tool-car-infor p span {
+      margin-right: 3px; }
+    .tool-car-infor p h1 {
+      font-size: 14px;
+      color: #666666;
+      line-height: 18px;
+      margin-top: 4px;
+      font-weight: normal; }
+      .tool-car-infor p h1 span {
+        color: #eb1a21;
+        font-size: 16px; }
+
+.goods-pay-btn:hover {
+  color: #fff !important; }
 
 h1.tips-nogoods {
   padding: 15px 0px;
@@ -236,9 +341,10 @@ h1.tips-nogoods {
 .top_nav_right .shop_cart {
   background: url("../images/home-toolbar-shoppingcar_03.png") no-repeat left center;
   margin-left: 22px;
-  cursor: pointer; }
-  .top_nav_right .shop_cart:hover .tool-container-tips {
-    display: block; }
+  cursor: pointer;
+  /*  &:hover .tool-container-tips{
+       display:block;
+        } */ }
 
 .CH_logo {
   position: relative;
@@ -702,3 +808,64 @@ h1.tips-nogoods {
 
 .foot-note p img {
   margin-right: 10px; }
+
+.pro-float-box {
+  position: fixed;
+  right: 0px;
+  bottom: 224px; }
+
+.pro-float-box {
+  display: block; }
+
+.pro-float-box ul li {
+  width: 40px;
+  height: 40px; }
+  .pro-float-box ul li a {
+    position: relative; }
+
+.pro-float-box ul li a.pro-float-car span {
+  display: block;
+  background: url("../images/pro-float-car-num_03.png") no-repeat;
+  width: 18px;
+  height: 22px;
+  position: absolute;
+  left: 50%;
+  margin-left: -9px;
+  top: -13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 12px; }
+
+.pro-float-center {
+  border-top: 1px solid #f9f9f9;
+  border-bottom: 1px solid #f9f9f9; }
+
+.xhome-fixl {
+  position: fixed;
+  top: 50%;
+  margin-top: -150px; }
+
+.xhome-fixl ul {
+  overflow: hidden; }
+
+.xhome-fixl li {
+  width: 45px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center; }
+
+.xhome-fixl li.clicked a {
+  background-color: #ee1411;
+  color: #fff; }
+
+.xhome-fixl li a {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 1px solid #d6d6d6; }
+  .xhome-fixl li a:hover {
+    color: #666 !important; }
+
+.clicked {
+  background-color: #ee1411; }

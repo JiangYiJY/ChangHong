@@ -19,6 +19,7 @@ define(["jquery","public"],function($,public){
 				
 			})
 			$(".home-nav li").mouseleave(function(){
+				
 				$(this).find(".home-nav-sub").css({display:"none"});
 				
 			})
@@ -55,7 +56,25 @@ define(["jquery","public"],function($,public){
 				
 				
 			})
+			//导航栏切换
+			$(".pro-ditem-cs a").click(function(){
+				/*alert($(".pro-ditem-tabcon").size());*/
+				$(this).addClass("sel").siblings().removeClass("sel");
+				/*alert($(this).index());*/
+				var index = $(this).index()/2;
+				/*alert(index);*/
+				$(".pro-ditem-tabcon").css({display:"none"});
+				$(".pro-ditem-tabcon").eq(index).css({display:"block"});
+
+				
+				
+				/*if($(this).index() == 2){
+					$("#guigecanshu_control").css({display:"block"});
+					$(".pro-ditem-tab").css({display:"none"});
+				}*/
+			})
 		})
+			
 	}
 	return {
 		goodsDetail:goodsDetail

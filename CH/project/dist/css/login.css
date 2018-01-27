@@ -14,7 +14,8 @@ button, input, textarea {
   font-size: 12px; }
 
 .account-tips {
-  font-size: 12;
+  font-size: 12px;
+  color: red;
   height: 22px;
   line-height: 22px;
   text-align: right; }
